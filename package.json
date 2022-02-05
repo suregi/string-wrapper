@@ -1,0 +1,24 @@
+{
+	"name": "string-wrapper",
+	"version": "0.2.0",
+	"description": "wrap string with given string",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/suregi/string-wrapper.git"
+	},
+	"keywords": [
+		"string",
+		"wrap",
+		"parenthesis"
+	],
+	"author": "Su Regi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/suregi/string-wrapper/issues"
+	},
+	"homepage": "https://github.com/suregi/string-wrapper#readme"
+}
