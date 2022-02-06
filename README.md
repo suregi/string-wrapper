@@ -8,6 +8,8 @@ Returns string wrapped in specified wrapper string
 
 # usage
 
+`wrap(<string_to_wrap>, <wrapper_string>)`
+
 ```
 import { wrap } from string-wrapper;
 
