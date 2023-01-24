@@ -24,6 +24,6 @@ wrapP('paren'); // (paren)
 wrapC('curly'); // {curly}
 wrapA('angle'); // <angle>
 wrapS('square'); // [square]
-wrapS('quote'); // 'quote'
+wrapQ('quote'); // 'quote'
 wrapD('double quote'); // "double quote"
 ```

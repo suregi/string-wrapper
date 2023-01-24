@@ -1,6 +1,6 @@
 {
 	"name": "string-wrapper",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "wrap string with given string",
 	"main": "index.js",
 	"scripts": {
