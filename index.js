@@ -21,4 +21,24 @@ function wrap(sIn, sWrapper) {
 	return sOut;
 }
 
-module.exports = { wrap };
+function wrapP(sIn) {
+	return wrap(sIn, '()');
+}
+function wrapC(sIn) {
+	return wrap(sIn, '{}');
+}
+function wrapA(sIn) {
+	return wrap(sIn, '<>');
+}
+function wrapS(sIn) {
+	return wrap(sIn, '[]');
+}
+
+function wrapQ(sIn) {
+	return wrap(sIn, "'");
+}
+function wrapD(sIn) {
+	return wrap(sIn, '"');
+}
+
+module.exports = { wrap, wrapP, wrapC, wrapA, wrapS, wrapQ, wrapD };
